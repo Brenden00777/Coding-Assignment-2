@@ -84,13 +84,10 @@ sumOfAllTheNumbers(43, 21, 16, 34, 41);
 //10.  Write a function that takes an array of numbers and returns the average of all the elements in the array.
 
 let secondArrayOfNumbers =[32, 54, 84, 48]
-function averageOfArray (arr) {
+function averageOfArray (_arr) {
     let total = 0; 
     let count = 0;
-    this.foreach(function(item){
-        total += item;
-        count++;                  
-    })
+   
 }
 
 averageOfArray(32, 54, 84, 48);
